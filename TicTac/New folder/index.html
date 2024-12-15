@@ -1,0 +1,41 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+    <div id="home-page" class="page">
+        <h1>Tic Tac Toe</h1>
+        <button id="start-game-btn">Start Game</button>
+        <div class="theme-switcher">
+            <label>Switch Theme:</label>
+            <button id="theme-switch-btn">Dark Mode</button>
+        </div>
+    </div>
+    
+    <div id="game-page" class="page hidden">
+        <div class="game-header">
+            <h2 id="game-info">Player X's Turn</h2>
+            <button id="reset-game-btn">Reset Game</button>
+            <button id="back-home-btn">Back Home</button>
+        </div>
+        <div id="game-board">
+            <div class="square" id="square0"></div>
+            <div class="square" id="square1"></div>
+            <div class="square" id="square2"></div>
+            <div class="square" id="square3"></div>
+            <div class="square" id="square4"></div>
+            <div class="square" id="square5"></div>
+            <div class="square" id="square6"></div>
+            <div class="square" id="square7"></div>
+            <div class="square" id="square8"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
